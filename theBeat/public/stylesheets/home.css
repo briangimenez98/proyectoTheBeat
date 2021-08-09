@@ -1,0 +1,53 @@
+.body__thebeat{
+    background-color: black;
+}
+
+/* Section 1 */
+
+.home__navigator{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    background-color: #FF7600;
+    transition: all 0.5s ;
+}
+.home__navigator__menu {
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.home__navigator__list{
+    display: none;
+}
+.home__navigator__logo a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home__navigator__search{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.home__navigator__menu a:hover,.home__navigator__search a:hover{
+    color: #52006A
+}
+
+/* Section 2 */
+
+.main__carousel__first{
+    width: 100%;
+}
+.main__recommended_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+@media (min-width: 768px){
+    .home__navigator__list{
+        display: flex;
+    }
+}
